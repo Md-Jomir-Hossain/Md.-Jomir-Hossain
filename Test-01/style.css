@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.main-body {
+    margin: auto 20px;
+}
+
+
+/* Header */
+.menu-bar {
+    background-color: #2185E2;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu button {
+    outline: none;
+    padding: 8px 30px;
+    color: #fff;
+    background-color: #e29821;
+    border: 1px solid #fff;
+    font-size: 14px;
+    cursor: pointer;  
+}
+
+.brand h1 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.icon i {
+    color: darkslategrey;
+    font-size: 22px;
+    margin-right: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Continue Shopping */
+.continue-shoping {
+    background-color: rgb(248, 244, 244);
+    padding: 8px 16px;
+}
+
+.continue-shoping i {
+    margin-right: 8px;
+}
+
+.continue-shoping h4 {
+    display: inline;
+}
+
+
+/* Your Bag */
+.your-bag {
+    padding: 8px 16px;
+}
+
+.your-bag h3{
+    display: inline;
+}
+
+/* Img area */
+.product {
+    display: flex;
+    color: #343434;
+    justify-content: space-between;
+}
+
+
+.product .img {
+    flex-basis: 30%;
+}
+
+.product img {
+    width: 70%;
+}
+
+.product-details{
+    width: 100%;
+}
+
+.product-details h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.product-details .grey {
+	color: #777;
+	margin: 0;
+	padding: 0;
+}
+
+.product-details h1 {
+    font-size: 30px;
+}
+
+.product-details .rate {
+    display: inline-block;
+    margin: 1rem 0 2rem;
+    font-size: 26px;
+}
+
+.product-details .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-details select {
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+
+.common-btn,
+.promo-code input[type="text"] {
+    /* border: 1px solid red; */
+    outline: none;
+    padding: 8px 26px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #983ef3;
+    cursor: pointer;
+}
+
+/* Bottom Img area */
+/* Subtotal */
+.subtotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.method {
+    color: blueviolet;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Promo Code */
+.promo-code {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-code input[type="text"] {
+    flex-basis: 75%;
+    width: 100%;
+    border: 2px solid red;
+    background-color: #fff;
+}
+
+/* Footer */
+.button {
+    width: 100%;
+    background-color: #983ef3;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 26px;
+    color: #fff;
+    font-size: 18px;
+    /* border: none; */
+}
+
+.button i {
+    margin-right: 10px;
+    font-size: 18px;
+}
